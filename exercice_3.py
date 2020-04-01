@@ -1,7 +1,5 @@
 def pow(x,n):
-    if n<=0:
-        return 1
-    return x*pow(x,n-1)
+    return 1 if n<=0 else x*pow(x,n-1)
 
 print(pow(42, 0)) # 1
 print(pow(1, 10)) # 1
